@@ -109,6 +109,7 @@ object Ast {
   case class MatchCase(pattern: List[Var], exp: Exp) extends AstNode
 
   /**
+   *
    * Types.
    */
   sealed abstract class Type extends AstNode
